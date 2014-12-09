@@ -1,0 +1,107 @@
+body {
+    color: white;
+    overflow-x: hidden; // Anything that flows over the the left/right edge of a dive is hidden
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/mosaic.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.user-intro {
+    color: black;
+    padding: 40px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+.forum-buttons {
+    padding: 30px;
+}
+
+.forum-content {
+    background: white;
+    padding: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+p.error {
+    color: red;
+}
+
+p.success {
+    color: green;
+}
+
+.link {
+    color:blue;
+}
+
+/* Table */
+.forum-table-row {
+    height: 60px;
+    color: white;
+    background: #1abc9c;
+}
+
+.forum-table-label {
+    padding-left: 10px;
+}
+
+#footer {
+    clear: both;
+    height: 90px;
+    padding-top: 40px;
+    background: #34495e;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    margin-top: 30px;
+}
+ 
+textarea {
+    width: 500px;
+    height: 200px;
+}
